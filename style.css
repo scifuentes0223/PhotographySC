@@ -1,0 +1,105 @@
+.introd{
+    display: block;
+    text-align: right;
+    color: rgb(1, 12, 22);
+}
+.image_intro > img {
+    display: block flex;
+    width: 100%;
+    max-width: 1000px;
+    max-height: 666px;
+    border-radius: 30px;
+    align-items:flex-start;
+}
+h1{
+    font-family: "Offside", sans-serif;
+    font-weight: 1000;
+    font-style: normal;
+    font-size: 2rem;
+}
+h2 {
+    font-family: "forum", serif;
+    font-weight: 400px;
+    font-style: normal;
+    font-size: 1.5rem;     
+}
+h3{
+    font-family: "forum", serif;
+    font-weight: 400px;
+    font-style: normal;
+    font-size: 1.2rem;
+    text-align: center;
+}
+p{
+    font-family: "forum", serif;
+    font-size: larger;
+}
+.image_about{
+    display: block;
+    text-align: left;
+}
+.image_about > div > img {
+    max-width: 300px;
+    border-radius: 600px;
+}
+.image_about > div{     
+    display: flex;
+    justify-content: center;
+}
+.about{
+    display: block;
+    text-align: center;
+    margin-top: 3rem;
+}
+.about > div.paragraph {
+    display: flex;
+    justify-content: center;
+}
+.paragraph p{
+    max-width: 500px;
+}
+.column {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: auto;
+    /*border: 2px dotted red;*/
+    justify-content: center;
+    align-content: center;
+}
+
+/* Create four equal columns that sits next to each other */
+.row {
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+    width:auto;
+    max-width: 1600px;
+    /*border: 2px double lightgreen;*/
+    padding: 0 4px;
+    justify-content: center;
+}
+
+.row img {
+    max-width: 500px;
+    margin: 8px;
+    width: 100%;
+    align-content: center;
+}
+a{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+    color: #f56040;
+}
+.footer_container{
+    display: block;
+    background-color: #006D5B;
+    padding: 20px 10px;
+    text-align: center;
+}
+.copyright {
+    display: block;
+    color: #eaf6f6;
+    font-size: 0.75rem;
+    padding: 10px 0;
+}
